@@ -2,10 +2,10 @@ let warehouse=500;
 
 let itemSold=100;
 
-let remainingItems=warehouse-itemSold;
+warehouse-=itemSold;
 
 let newItem=50;
 
-let newStock=remainingItems+newItem;
+warehouse+=newItem;
 
-console.log("updated Stock",newStock);
+console.log("updated Stock",warehouse);
