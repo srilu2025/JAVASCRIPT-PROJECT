@@ -4,9 +4,15 @@
     When I call the function in a normal way (not as an object method)
     Then the value of 'this' should be "undefined" instead of the global object */
  
+"use strict"//global level
+
+x=10;
+
  function method(){
 
-   "use strict"
+
+
+   //"use strict" ---->function level
     console.log(this);
  }
  method();
