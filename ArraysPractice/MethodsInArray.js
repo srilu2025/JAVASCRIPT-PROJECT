@@ -134,6 +134,14 @@ console.log(numArray1);
     let alpha=["a","b","c"];
     console.log("reversing an array..",alpha.reverse());
 
+//sorting the numbers
+
+let numbersArray=[1000,500,600,50,2,200,10000,7];
+
+console.log("sorting of an array",numbersArray.sort((a,b)=>{
+      return  a-b;
+}));
+
 
 
 
