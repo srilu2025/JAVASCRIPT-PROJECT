@@ -34,6 +34,7 @@ console.log(str1.match(/z/g));// here z is not present we will get NULL.
 
 console.log("******************String Modification & Extraction***********************");
 
+
 /**Convert the string to uppercase or lowercase (toUpperCase(), toLowerCase()). */
 
 let str2="welcome";
