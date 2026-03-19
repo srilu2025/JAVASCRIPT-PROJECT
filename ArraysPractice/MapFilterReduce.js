@@ -36,3 +36,4 @@ console.log("reduced value is",newArray2);
 //product of the values in array
 const newArray3=array3.reduce((acc,a)=>acc*a,1);
 console.log(newArray3);
+
